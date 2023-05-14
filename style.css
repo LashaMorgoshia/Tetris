@@ -1,0 +1,72 @@
+/* Center the canvas element on the page */
+canvas {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Style the game board */
+#game-board {
+    background-color: #eee;
+    border: 10px solid #333;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+    overflow: hidden;
+    padding: 10px;
+    position: relative;
+}
+
+/* Style the game shapes */
+.shape {
+    background-color: #f00;
+    border: 2px solid #000;
+    position: absolute;
+}
+
+/* Style the game over screen */
+#game-over {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 36px;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+/* Style the game score */
+#game-score {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Style the game controls */
+#game-controls {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+/* Style the game buttons */
+button {
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    margin-bottom: 10px;
+    padding: 10px;
+    transition: background-color 0.2s;
+}
+
+/* Style the game buttons on hover */
+button:hover {
+    background-color: #444;
+}
